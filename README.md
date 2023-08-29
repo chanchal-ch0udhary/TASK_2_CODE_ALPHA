@@ -9,3 +9,7 @@ third-party apps. This is also great practice in following a developer’s
 documentation.
 Take a look at different types of CAPTCHA services and list the pros and
 cons of each.
+
+IDE USED:VS Code
+
+Language used:HTML,CSS & JS
