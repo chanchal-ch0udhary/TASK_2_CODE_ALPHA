@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1,user-scalable=no" />
+    <title>Survey_Form</title>
+    <link rel="stylesheet" type="text/css" href="SurveyForm.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Code Alpha Survey Form</h1>
+        <h2 id="subheading"><i>Thank you for taking the time to help us improve the platform</i></h2>
+    </div>
+<div class="form">
+    <form action="https://formsubmit.co/0173cs191017@gmail.com" method="POST" id="form-submit">
+        <div id="content1">
+            <label>Name</label><br><br>
+            <input type="name" name="name" placeholder="Enter your Name" class="box"><br><br>
+            <label>Email</label><br><br>
+            <input type="email" name="email"  id="email" placeholder="Enter your Email" class="box"><br><br>
+            <label>Age(optional)</label><br><br>
+            <input type="age" name="age" placeholder="Enter your Age" class="box"><br><br>
+            <label>Which option best describes your current role ?</label><br><br>
+        
+        <div id="option1">
+            <select>
+                <option name="Select your Role">Select your Role</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer Not to say">Prefer Not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <label id="head1" name="Would you recommend Code Alpha to a Friend" >Would you recommend Code Alpha to a Friend</label><br><br>
+        <input type="radio" name="Definitely" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+        <input type="radio" name="May be" class="larger">&nbsp&nbsp&nbspMay be<br><br>
+        <input type="radio" name="Not Sure" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>
+        <label name="What is your favourite feature of Code Alpha ?">What is your favourite feature of Code Alpha ?</label>
+        <div id="option2">
+                <select>
+                    <option name="Select an option">Select an option</option>
+                    <option value="Challenged">Challenged</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select>
+        </div>
+        <br><br>
+        <label id="head2" name="What would you like to see improved ?(check all that apply)" >What would you like to see improved ?(check all that apply)</label>
+        <div id="content2">
+            <input type="checkbox" name="Front - end Projects" class="larger"><label>  Front - end Projects</label><br><br>
+            <input type="checkbox" name="Back - end Projects" class="larger"><label>  Back - end Projects</label><br><br>
+            <input type="checkbox" name="Data Visualisation" class="larger"><label>  Data Visualisation</label><br><br>
+            <input type="checkbox" name="Challenges" class="larger"><label>  Challenges</label><br><br>
+            <input type="checkbox" name="Open Source Community" class="larger"><label>  Open Source Community</label><br><br>
+            <input type="checkbox" name="Gitter Help Room" class="larger"><label>  Gitter Help Room</label><br><br>
+            <input type="checkbox" name="Videos" class="larger"><label>  Videos</label><br><br>
+            <input type="checkbox" name="City Meetups" class="larger"><label>  City Meetups</label><br><br>
+            <input type="checkbox" name="Wiki" class="larger"><label>  Wiki</label><br><br>
+            <input type="checkbox" name="Forum" class="larger"><label>  Forum</label><br><br>
+            <input type="checkbox" name="Additional sources " class="larger"><label>  Additional sources </label><br><br>
+        <label class="head2" name="Any Comments or Suggestion" >Any Comments or Suggestion</label><br><br><br>
+        <textarea name="Comment" placeholder="Enter your comment here......"></textarea><br><br>
+        <div class="captcha">
+            <label for="captcha-input">Enter Captcha </label><br><br>
+            <div class="preview"></div><br>
+            <div class="captcha-form">
+                <input type="text" id="captcha-form" placeholder="Enter Captcha Text">
+                <button type="reset" class="captcha-refresh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M386.3 160H336c-17.7 0-32 14.3-32 32s14.3 32 32 32H464c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v51.2L414.4 97.6c-87.5-87.5-229.3-87.5-316.8 0s-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3s163.8-62.5 226.3 0L386.3 160z"/></svg>
+                </button><br><br>
+            </div>
+            <button id="submit" type="submit"><h3>SUBMIT</h3></button><br><br>
+        </div>
+        <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+    </div>
+    <script src="SurveyForm.js"></script>
+    </form>
+</div>
+</body>
+</html>
